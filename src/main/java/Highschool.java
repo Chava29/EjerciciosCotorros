@@ -31,6 +31,6 @@ public class Highschool
                 }
             }
         }
-        System.out.println("--------------------------------------------");
+        System.out.println("-------------------------------------------");
     }
 }
