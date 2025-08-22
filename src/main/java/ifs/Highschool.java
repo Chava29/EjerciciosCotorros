@@ -1,7 +1,8 @@
+package ifs;
+
 import java.util.Scanner;
 
 public class Highschool
-
 {
     public static void main(String[] args)
     {
@@ -26,7 +27,7 @@ public class Highschool
                 }
                 else{
                     if(edad >=11 && edad<=13) {
-                System.out.println("Lunes y miercoles de 17 a 18:30");
+                        System.out.println("Lunes y miercoles de 17 a 18:30");
                     }
                 }
             }

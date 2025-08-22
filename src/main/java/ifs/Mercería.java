@@ -1,7 +1,9 @@
+package ifs;
+
 import java.util.Scanner;
 
-public class Merceria {
-
+public class Mercería
+{
     public static void main(String[] args) {
 
         //Merceria mayoriste ----- vende al por mayor
@@ -41,7 +43,7 @@ public class Merceria {
             if (dinero<100) {
                 diferencia = 100-dinero; //Esto es un operador ternario
                 System.out.println("No hay promociones bro, necesitas 100USD minimo para una promoción, por lo tanto le faltan: $" + diferencia + " para entrar en promo"
-                + "El monto total es " + dinero);
+                        + "El monto total es " + dinero);
             }
             else {
 
