@@ -64,17 +64,15 @@ Este ejercicio es tanto de for cm de while
                             cont2++;
                             totalDia = totalDia + total;
                         } else {
-                            if (tipoEst == 3) {
                                 System.out.println("Recuerda, jornada completa son 10hrs");
                                 total = 30 * 0.90;
                                 System.out.println("El total a pagar sería de $" + total);
                                 cont3++;
                                 totalDia = totalDia + total;
-                            }
                         }
                     }
+                    System.out.println("----------¡MUCHAS GRACIAS POR SU COMPRA!, con ese dinero me voy con unas cariñosas yiyi papa-------------");
                 }
-                System.out.println("----------¡MUCHAS GRACIAS POR SU COMPRA!, con ese dinero me voy con unas cariñosas-------------");
                 //Aquí importante resetear el scanner para que vuelva a leer el String
                 sc = new Scanner(System.in);
             }
